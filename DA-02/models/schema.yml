@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: stg_sessions
+    description: Staging view over the prepared GA4 sessions table.
+    columns:
+      - name: user_pseudo_id
+        data_tests:
+          - not_null
+
+  - name: stg_orders
+    description: Staging view over the deduplicated orders table.
+    columns:
+      - name: order_id
+        data_tests:
+          - not_null
+      - name: customer_id
+        data_tests:
+          - not_null
+
+  - name: customer_360_dbt
+    description: dbt mart wrapper over the existing Customer 360 table.

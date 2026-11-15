@@ -1,0 +1,12 @@
+# Copy this file to ~/.dbt/profiles.yml and replace placeholders.
+da02_customer360:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: YOUR_GCP_PROJECT_ID
+      dataset: dbt_dev
+      threads: 4
+      location: YOUR_BIGQUERY_LOCATION
+      priority: interactive

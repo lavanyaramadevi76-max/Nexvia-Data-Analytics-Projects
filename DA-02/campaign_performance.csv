@@ -1,0 +1,6 @@
+campaign,platform,total_spend,total_clicks,total_impressions,attributed_orders,attributed_revenue,match_status,roi,cpa
+Winter Sale,Google Ads,2300.0,870,29000,0,,NO_EXACT_CAMPAIGN_MATCH,,
+Brand Awareness,Google Ads,1500.0,600,20000,0,,NO_EXACT_CAMPAIGN_MATCH,,
+New Year Campaign,Meta Ads,950.0,380,12000,0,,NO_EXACT_CAMPAIGN_MATCH,,
+Product Launch,Instagram Ads,800.0,300,10000,0,,NO_EXACT_CAMPAIGN_MATCH,,
+Retargeting,Meta Ads,650.0,275,8500,0,,NO_EXACT_CAMPAIGN_MATCH,,

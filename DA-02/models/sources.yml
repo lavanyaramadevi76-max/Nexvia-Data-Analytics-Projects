@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: customer360
+    database: nexvia-da02-customer360
+    schema: customer360
+    description: Existing BigQuery tables created for the DA-02 prototype.
+    tables:
+      - name: sessions
+      - name: orders_clean
+      - name: customer_360
+      - name: rfm_segmentation
+      - name: customer_lifetime_value
+      - name: attribution_results
